@@ -1,0 +1,10 @@
+streamlit>=1.36
+pillow
+numpy
+opencv-python-headless
+requests
+fpdf2
+# DeepFace es opcional; si falla la instalación, la app seguirá abriendo y mostrará aviso.
+deepface
+# Opcional para Google Lens wrapper
+google-lens-python @ git+https://github.com/krishna2206/google-lens-python.git
